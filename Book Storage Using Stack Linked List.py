@@ -40,8 +40,7 @@ class Stack:
         while current:
             print(f"- {current.data}")
             current = current.next
-
-# Example Usage
+#Menu
 
 stack = Stack()
 
@@ -71,3 +70,4 @@ while True:
         break
     else:
         print("Invalid choice! Please try again.")
+
