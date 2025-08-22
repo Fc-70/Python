@@ -41,7 +41,6 @@ class Stack:
             print(f"- {current.data}")
             current = current.next
 
-
 stack = Stack()
 
 while True:
@@ -70,3 +69,4 @@ while True:
         break
     else:
         print("Invalid choice! Please try again.")
+
