@@ -1,11 +1,11 @@
 class Node:
     def __init__(self, data):
-        self.data = data  # book title
+        self.data = data 
         self.next = None
 
 class Stack:
     def __init__(self):
-        self.top = None  # top of the stack
+        self.top = None 
 
     def push(self, book_title):
         new_node = Node(book_title)
@@ -40,7 +40,6 @@ class Stack:
         while current:
             print(f"- {current.data}")
             current = current.next
-#Menu
 
 stack = Stack()
 
@@ -70,4 +69,5 @@ while True:
         break
     else:
         print("Invalid choice! Please try again.")
+
 
